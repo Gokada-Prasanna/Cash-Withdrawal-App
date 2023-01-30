@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.outerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 50px;
+}
+.innerContainer {
+  background-color: #150b3e;
+  width: 70vh;
+  border-radius: 30px;
+  padding: 20px;
+}
+.accountHolderName {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.nameLogo {
+  color: #7c3aed;
+  background-color: #c7d2fe;
+  font-family: Roboto;
+  font-size: 25px;
+  height: 10vh;
+  width: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+}
+.nameContainer {
+  padding-top: 17px;
+  padding: 14px;
+}
+.holderName {
+  font-family: Roboto;
+  font-size: 25px;
+  color: #d4d2db;
+}
+.balance {
+  display: flex;
+  font-family: Roboto;
+  justify-content: space-between;
+}
+.balanceText {
+  color: #585076;
+  font-size: 25px;
+}
+
+.balanceNumbers {
+  color: #d4d2db;
+  font-family: Roboto;
+  font-size: 28px;
+}
+.balanceNote {
+  font-family: Roboto;
+  color: #585076;
+}
+
+.withdrawalSectionHeading {
+  font-family: Roboto;
+  color: #d4d2db;
+  font-size: 26px;
+  font-weight: none;
+}
+
+.withdrawalSectionNote {
+  font-family: Roboto;
+  color: #585076;
+  font-size: 20px;
+}
+
+.denominationsList {
+  font-family: Roboto;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
